@@ -1,0 +1,9 @@
+<button class="square btn btn-secondary" (click)="onClick()" *ngIf="!value">
+  {{ value }}
+</button>
+<button class="square btn btn-success" *ngIf="value === 'X'">
+  {{ value }}
+</button>
+<button class="square btn btn-warning" *ngIf="value === 'O'">
+  {{ value }}
+</button>
